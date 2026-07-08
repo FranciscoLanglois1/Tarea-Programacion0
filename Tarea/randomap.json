@@ -1,0 +1,249 @@
+{
+    "tiles": [
+        {
+            "id": "c01",
+            "material": "cereal",
+            "edges": {
+                "top-left": "p01",
+                "right": "w01",
+                "bottom-left": "y01",
+                "bottom-right": "w02"
+            }
+        },
+        {
+            "id": "w01",
+            "material": "wood",
+            "edges": {
+                "top-right": "p02",
+                "left": "c01",
+                "right": "c02",
+                "bottom-left": "w02",
+                "bottom-right": "o01"
+            }
+        },
+        {
+            "id": "c02",
+            "material": "cereal",
+            "edges": {
+                "left": "w01",
+                "bottom-left": "o01",
+                "bottom-right": "o02"
+            }
+        },
+        {
+            "id": "y01",
+            "material": "clay",
+            "edges": {
+                "top-right": "c01",
+                "left": "p03",
+                "right": "w02",
+                "bottom-left": "o03",
+                "bottom-right": "y02"
+            }
+        },
+        {
+            "id": "w02",
+            "material": "wood",
+            "edges": {
+                "top-left": "c01",
+                "top-right": "w01",
+                "left": "y01",
+                "right": "o01",
+                "bottom-left": "y02",
+                "bottom-right": "d"
+            }
+        },
+        {
+            "id": "o01",
+            "material": "wool",
+            "edges": {
+                "top-left": "w01",
+                "top-right": "c02",
+                "left": "w02",
+                "right": "o02",
+                "bottom-left": "d",
+                "bottom-right": "m01"
+            }
+        },
+        {
+            "id": "o02",
+            "material": "wool",
+            "edges": {
+                "top-left": "c02",
+                "top-right": "p04",
+                "left": "o01",
+                "bottom-left": "m01",
+                "bottom-right": "o04"
+            }
+        },
+        {
+            "id": "o03",
+            "material": "wool",
+            "edges": {
+                "top-right": "y01",
+                "right": "y02",
+                "bottom-right": "w03"
+            }
+        },
+        {
+            "id": "y02",
+            "material": "clay",
+            "edges": {
+                "top-left": "y01",
+                "top-right": "w02",
+                "left": "o03",
+                "right": "d",
+                "bottom-left": "w03",
+                "bottom-right": "m02"
+            }
+        },
+        {
+            "id": "d",
+            "material": "desert",
+            "edges": {
+                "top-left": "w02",
+                "top-right": "o01",
+                "left": "y02",
+                "right": "m01",
+                "bottom-left": "m02",
+                "bottom-right": "y03"
+            }
+        },
+        {
+            "id": "m01",
+            "material": "mineral",
+            "edges": {
+                "top-left": "o01",
+                "top-right": "o02",
+                "left": "d",
+                "right": "o04",
+                "bottom-left": "y03",
+                "bottom-right": "w04"
+            }
+        },
+        {
+            "id": "o04",
+            "material": "wool",
+            "edges": {
+                "top-left": "o02",
+                "left": "m01",
+                "right": "p05",
+                "bottom-left": "w04"
+            }
+        },
+        {
+            "id": "w03",
+            "material": "wood",
+            "edges": {
+                "top-left": "o03",
+                "top-right": "y02",
+                "left": "p06",
+                "right": "m02",
+                "bottom-right": "c03"
+            }
+        },
+        {
+            "id": "m02",
+            "material": "mineral",
+            "edges": {
+                "top-left": "y02",
+                "top-right": "d",
+                "left": "w03",
+                "right": "y03",
+                "bottom-left": "c03",
+                "bottom-right": "c04"
+            }
+        },
+        {
+            "id": "y03",
+            "material": "clay",
+            "edges": {
+                "top-left": "d",
+                "top-right": "m01",
+                "left": "m02",
+                "right": "w04",
+                "bottom-left": "c04",
+                "bottom-right": "m03"
+            }
+        },
+        {
+            "id": "w04",
+            "material": "wood",
+            "edges": {
+                "top-left": "m01",
+                "top-right": "o04",
+                "left": "y03",
+                "bottom-left": "m03",
+                "bottom-right": "p07"
+            }
+        },
+        {
+            "id": "c03",
+            "material": "cereal",
+            "edges": {
+                "top-left": "w03",
+                "top-right": "m02",
+                "right": "c04",
+                "bottom-left": "p08"
+            }
+        },
+        {
+            "id": "c04",
+            "material": "cereal",
+            "edges": {
+                "top-left": "m02",
+                "top-right": "y03",
+                "left": "c03",
+                "right": "m03",
+                "bottom-right": "p09"
+            }
+        },
+        {
+            "id": "m03",
+            "material": "mineral",
+            "edges": {
+                "top-left": "y03",
+                "top-right": "w04",
+                "left": "c04"
+            }
+        }
+    ],
+    "ports": [
+        {
+            "id": "p01",
+            "material": "generic"
+        },
+        {
+            "id": "p02",
+            "material": "wool"
+        },
+        {
+            "id": "p03",
+            "material": "mineral"
+        },
+        {
+            "id": "p04",
+            "material": "generic"
+        },
+        {
+            "id": "p05",
+            "material": "generic"
+        },
+        {
+            "id": "p06",
+            "material": "cereal"
+        },
+        {
+            "id": "p07",
+            "material": "clay"
+        },
+        {
+            "id": "p08",
+            "material": "generic"
+        },
+        {
+            "id": "p09",
+            "material": "wood"
+        }
+    ]
+}
