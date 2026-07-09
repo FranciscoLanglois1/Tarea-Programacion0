@@ -1,1 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Ma74JpLf)
+Juego Catan
+
+Se permite abrir un juego anterior, crear un juego nuevo con hasta 4 jugadores y visualización por imagenes del tablero de juego.
